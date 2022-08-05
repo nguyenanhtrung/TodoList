@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.todolist.ui.home.MainActivity">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home_24px"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/categories"
+        android:title="Categories"
+        android:icon="@drawable/category_24px"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/searching"
+        android:title="Search"
+        android:icon="@drawable/search_24px"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/dashboard_24px"
+        app:showAsAction="never" />
+</menu>
