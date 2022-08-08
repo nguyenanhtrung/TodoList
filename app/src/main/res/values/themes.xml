@@ -16,6 +16,7 @@
         <item name="colorOnSurface">@color/colorOnSurfaceLight</item>
         <item name="colorPrimaryContainer">@color/colorPrimaryContainerLight</item>
         <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainerLight</item>
+        <item name="colorPrimaryInverse">@color/colorPrimaryInverse</item>
     </style>
 
     <style name="Theme.TodoList" parent="Base.Theme.TodoList" />

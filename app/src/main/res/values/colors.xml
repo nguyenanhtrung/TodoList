@@ -16,4 +16,6 @@
     <color name="colorOnPrimaryContainerLight">#001f27</color>
     <color name="colorSurfaceLight">#fefbff</color>
     <color name="colorOnSurfaceLight">#001454</color>
+    <color name="colorPrimaryInverse">#5AD5F9</color>
+    <color name="colorOnPrimaryInverse">#000000</color>
 </resources>
