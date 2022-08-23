@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/shapeableImageView"
+            android:layout_width="@dimen/width_left_decorator_item_tasks"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryInverse"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearance="@style/ShapeAppearance.ItemTaskLeftCorner" />
+
+        <TextView
+            android:id="@+id/text_task_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/normal_margin"
+            android:layout_marginTop="@dimen/normal_margin"
+            android:textAppearance="@style/TitleDisplay"
+            android:textSize="18sp"
+            android:layout_marginEnd="@dimen/normal_margin"
+            app:layout_constraintEnd_toStartOf="@+id/checkBox2"
+            app:layout_constraintStart_toEndOf="@+id/shapeableImageView"
+            app:layout_constraintTop_toTopOf="@+id/shapeableImageView"
+            tools:text="Task Name" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/text_task_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/text_task_name" />
+
+        <TextView
+            android:id="@+id/text_task_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="281dp"
+            tools:layout_editor_absoluteY="115dp"
+            tools:text="12:30 22/12/2022" />
+
+        <TextView
+            android:id="@+id/text_task_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Work"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</com.google.android.material.card.MaterialCardView>

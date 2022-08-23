@@ -1,5 +1,6 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
     <dimen name="normal_margin">16dp</dimen>
     <dimen name="normal_margin_125">24dp</dimen>
     <dimen name="normal_padding">16dp</dimen>
@@ -8,4 +9,5 @@
     <dimen name="normal_icon_size">24dp</dimen>
 
     <dimen name="height_authentication_logo">150dp</dimen>
+    <dimen name="width_left_decorator_item_tasks">15dp</dimen>
 </resources>
